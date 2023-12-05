@@ -21,9 +21,9 @@ public class SAT4JPlannerConfiguration {
         // Creates the planner
         SAT4JPlanner planner = new SAT4JPlanner();
         // Sets the domain of the problem to solve
-        planner.setDomain(path_resources + "domain.pddl");
+        planner.setDomain(path_resources + args[0] + ".pddl");
         // Sets the problem to solve
-        planner.setProblem(path_resources + "p01.pddl");
+        planner.setProblem(path_resources + args[1] + ".pddl");
         // Sets the timeout of the search in seconds
         planner.setTimeout(1000);
         // Sets log level
