@@ -8,7 +8,7 @@ problems using the SAT4J library (http://sat4j.org).
 
 ## 2. Dependencies
 
-  * [Java JDK](https://adoptopenjdk.net/>) version 21 or higher.
+* [Java JDK](https://adoptopenjdk.net/>) version 21 or higher.
 
 All the necessary libraries are included in the 'lib' directory.
 
@@ -23,7 +23,9 @@ The files in the 'src' directory have already been compiled in the 'classes'
 directory. To execute the planner, use the following command line in the root 
 directory:
 
->>> java -cp classes;lib/* fr.uga.pddl4j.mcts.SAT4JPlannerConfiguration {domain file name} {problem file name}
+```
+java -cp classes;lib/* fr.uga.pddl4j.mcts.SAT4JPlannerConfiguration {domain file name} {problem file name}
+```
 
 The planner will use benchmark PDDL files located in the 'resources' directory 
 for its domain and problem instanciation. Simply put the files you wish to use
@@ -38,9 +40,9 @@ does not matter for the action or objective considered.
 
 ## 4. Documentation
 
-> SAT4J library: http://sat4j.org/r17/doc/
+* SAT4J library: http://sat4j.org/r17/doc/
 
-> PDDL4J library: http://pddl4j.imag.fr/repository/pddl4j/api/4.0.0/
+* PDDL4J library: http://pddl4j.imag.fr/repository/pddl4j/api/4.0.0/
 
-> D. Pellier & H. Fiorino (2017) PDDL4J: a planning domain description library for java, Journal of Experimental & Theoretical Artificial Intelligence, 30:1, 143-176
+* D. Pellier & H. Fiorino (2017) PDDL4J: a planning domain description library for java, Journal of Experimental & Theoretical Artificial Intelligence, 30:1, 143-176
 https://doi.org/10.1080/0952813X.2017.1409278
