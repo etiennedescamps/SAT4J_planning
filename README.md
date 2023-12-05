@@ -6,6 +6,8 @@ This library contains an automated planner class based on the PDDL4J library by
 D. Pellier and H. Fiorino (http://pddl4j.imag.fr), which solves planning
 problems using the SAT4J library (http://sat4j.org).
 
+Written by Etienne Descamps.
+
 ## 2. Dependencies
 
 * [Java JDK](https://adoptopenjdk.net/>) version 21 or higher.
