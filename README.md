@@ -30,7 +30,7 @@ java -cp classes;lib/* fr.uga.pddl4j.mcts.SAT4JPlannerConfiguration {domain file
 ```
 
 The planner will use PDDL files located in the 'resources' directory for its 
-domain and problem instanciation. Simply put the files you wish to usein it and 
+domain and problem instanciation. Simply put the files you wish to use in it and 
 use them as arguments without the .pddl extension. A simple way to test how it 
 works is to use 'domain' and 'p01' as arguments.
 
