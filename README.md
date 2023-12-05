@@ -18,7 +18,7 @@ All the necessary libraries are included in the 'lib' directory.
 
 If you already had an older version of Java downloaded on your computer, make sure
 that you are using the correct one. You can check which version you are using with
-the command line 'java -version', then modify the JAVA_HOME system environment 
+the command line ```java -version```, then modify the JAVA_HOME system environment 
 variable accordingly if necessary.
 
 The files in the 'src' directory have already been compiled in the 'classes' 
